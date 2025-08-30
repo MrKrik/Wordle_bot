@@ -1,0 +1,2 @@
+dispatcher.py:566 #INFO     [2025-08-31 00:24:18,271] - aiogram.dispatcher - Start polling
+dispatcher.py:363 #INFO     [2025-08-31 00:24:18,474] - aiogram.dispatcher - Run polling for bot @testmrquack005bot id=7773199074 - 'test'
