@@ -3,6 +3,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 def start_kb():
     builder = InlineKeyboardBuilder()
     builder.add(types.InlineKeyboardButton(text="Начать игру", callback_data=("start_game")))
+    builder.add(types.InlineKeyboardButton(text="Слово для друга", callback_data=("share")))
     keyboard = builder.as_markup()
     return keyboard
 

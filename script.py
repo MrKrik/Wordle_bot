@@ -10,6 +10,6 @@ result_sorted = result.sort_values('Freq(ipm)', ascending=False)
 
 lemmas = result_sorted['Lemma'].head(1000)
 
-with open(f'{n}_world.txt', 'w', encoding='UTF-8') as f:
+with open(f'{n}_word.txt', 'w', encoding='UTF-8') as f:
     for lemma in lemmas:
         f.write(lemma + '\n')

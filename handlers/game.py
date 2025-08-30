@@ -120,7 +120,7 @@ def compare_words(secret: str, guess: str) -> list[tuple[str, int]]:
 
 
 def generate_world(world_lenght: int):
-    with open(f"{world_lenght}.txt", "r", encoding="utf-8") as file:
+    with open(f"russian_worlds/{world_lenght}.txt", "r", encoding="utf-8") as file:
         words = file.read().splitlines()
 
     random_word = random.choice(words)
